@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var st1 = ['tao','cam','quyt','dao'];
+        var st2 = ['nho','le','man','cam'];
+        var st3 ;
+        if (st1.length !== st2.length) {
+            st3  = false;
+        }
+        else {
+            for (let i = 0; i < st1.length; i++) {
+                if (st1[i] !== st2[i]) {
+                    st3  = false;
+                    break;
+                }
+                st3  = true;
+            }
+        }
+        alert(st3 );
+    //    
+    </script>
+</body>
+
+</html>
